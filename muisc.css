@@ -1,0 +1,384 @@
+body{
+    background-image: linear-gradient(rgb(26, 26, 29),rgb(59, 28, 50),rgb(106, 30, 85),rgb(166, 77, 121));
+    background-repeat: no-repeat;
+    height: 550vh;
+    overflow-x: hidden;
+    
+    }
+    .nav{
+       background-color: rgb(95, 52, 95);
+       padding: 2px;
+       border-radius: 10px;
+       justify-content: center;
+       box-shadow: 7px 3px 7px 6px whitesmoke ;
+       
+       
+    }
+    .nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    position: relative;
+    bottom: 30px;
+    
+
+        justify-content: space-between;
+    }
+
+
+    .nav ul li{
+        align-items: center;
+    }
+    .btn{
+        width: 110px;
+        height: 50px;
+        margin-left:20px ;
+        top: 35px;
+        position: relative;
+        background-color: rgb(233, 220, 233);
+        border-radius: 20px;
+    
+    }
+    .btn1{
+        background-color: rgb(213, 189, 233);
+        border-radius: 40px;
+        height: 30px;
+        box-shadow: 3px 2px 4px 4px white;
+
+    }
+    .heading{
+        color: white;
+        position: relative;
+        left: 20px;
+        top: 70px;
+        font-size: 25px;
+        position: relative;
+    left: 60px;
+
+    }
+    .para{
+        font-size: 15px;
+        align-items: center;
+    line-height: 1.5;
+    max-width: 700px;
+    color: grey;
+   
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img{
+        height: 500px;
+        width: 500px;
+        position: relative;
+    
+        right: 100px;
+        margin-top: 50px;
+    }
+    .maincontent{
+        position: relative;
+        left: 600px;
+        font-size: 20px;
+        color: white;
+    }
+    .heading1{
+        position: relative;
+        left: 50px;
+        top: 20px;
+    }
+    h2{
+        position: relative;
+        top: 35px;
+    }
+    .para1{
+        position: relative;
+        right: 200px;
+        color: grey;
+    }
+    .para2{
+        position: relative;
+        left: 100px;
+        color: grey;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+
+    .card1{
+        background-image:linear-gradient(rgb(26, 26, 29),rgb(59, 28, 50),rgb(106, 30, 85),rgb(166, 77, 121),rgb(148, 137, 121)) ;
+    box-shadow: 5px 6px 8px 5px  black;
+        height: 500px;
+        width: 440px;
+        position: relative;
+        left: 100px;
+        top: 50px;
+
+    }
+
+    
+    
+    .card2{
+        background-image:linear-gradient(rgb(26, 26, 29),rgb(59, 28, 50),rgb(106, 30, 85),rgb(166, 77, 121),rgb(148, 137, 121)) ;
+        box-shadow: 5px 6px 8px 5px  black;
+        height: 500px;
+        width: 410px;
+        position: relative;
+        left: 80px;
+        top: 50px;
+    }
+    .card3{
+        background-image:linear-gradient(rgb(26, 26, 29),rgb(59, 28, 50),rgb(106, 30, 85),rgb(166, 77, 121),rgb(148, 137, 121)) ;
+        box-shadow: 5px 6px 8px 5px  black;
+        height: 500px;
+        width: 400px;
+        position: relative;
+        left: 10px;
+        top: 50px;
+        margin: 40px;
+    }
+    .img1{
+        height: 290px;
+        width:340px ;
+        position: relative;
+        top: 90px;
+        left: 60px;
+
+    }
+    .imgmusic{
+        height: 270px;
+        width: 290px;
+        position: relative;
+        top: 100px;
+        left: 60px;
+        
+        
+    }
+    .img2{
+        
+        height: 270px;
+        width: 290px;
+        position: relative;
+        top: 100px;
+        left: 60px;
+    }
+    .heading2{
+        
+    position: relative;
+    top: 70px;
+    left: 60px;
+    color: white;
+    }
+   .heading3{
+    position: relative;
+    height: 40px;
+    top:80px ;
+    left: 60px;
+    color: white;
+   }
+   .heading4{
+    position: relative;
+    top:80px ;
+    left: 60px;
+    color:white ;
+   }
+   .audio1{
+    position:relative;
+    top: 50px;
+    left: 50px;
+height: 20px;
+background-color: black;
+border-radius: 4px  5px 7px;
+color: beige;
+
+   }
+   .airpods{
+    position: relative;
+    top: 90px;
+    right: 250px;
+   }
+   .para3{
+    position: relative;
+    top: 50px;
+    left: 80px;
+    color: white;
+   }
+   .audio2{
+    position:relative;
+    top: 60px;
+    left: 50px;
+height: 20px;
+background-color: black;
+border-radius: 4px  5px 7px;
+color: beige;
+   }
+   .airpods1{
+    position: relative;
+    top: 90px;
+    right: 250px;
+
+   }
+   .para4{
+    position: relative;
+    top: 50px;
+    left: 80px;
+    color: white;
+
+   }
+   .audio3{
+    position:relative;
+    top: 60px;
+    left: 50px;
+height: 20px;
+background-color: black;
+border-radius: 4px  5px 7px;
+color: beige;
+   }
+   .airpods2{
+    position: relative;
+    top: 90px;
+    right: 250px;
+
+   }
+   .para5{
+    position: relative;
+    top: 50px;
+    left: 80px;
+    color: white;
+
+   }
+   .btn2{
+    position: relative;
+    top: 80px;
+    left: 800px;
+    height: 50px;
+   width: 120px;
+   border-radius: 9px 8px 8px 7px   ;
+   color: white;
+box-shadow: 5px 4px 7px 6px white;
+   background-image: linear-gradient(rgb(26, 26, 29),rgb(59, 28, 50),rgb(106, 30, 85),rgb(166, 77, 121));
+   
+   }
+   .load{
+    position: relative;
+    top: 90px;
+    left: 680px;
+    color: white;
+   }
+  /* For tablets and larger phones */
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+        bottom: 0; /* Adjust position */
+    }
+
+    .btn {
+        width: 100%; /* Full width for buttons */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    .heading {
+        font-size: 20px; /* Adjust font size */
+        left: 10px; /* Adjust position */
+    }
+
+    .content {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .img {
+        width: 100%; /* Full width for images */
+        height: auto; /* Maintain aspect ratio */
+        right: 0; /* Reset position */
+        margin-top: 20px; /* Adjust margin */
+    }
+
+    .maincontent {
+        left: 0; /* Reset position */
+        font-size: 18px; /* Adjust font size */
+        text-align: center; /* Center align text */
+    }
+
+    .cards {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center align cards */
+    }
+
+    .card1, .card2, .card3 {
+        width: 90%; /* Full width for cards */
+        left: 0; /* Reset position */
+        margin: 20px 0; /* Add margin for spacing */
+    }
+
+    .img1, .imgmusic, .img2 {
+        width: 100%; /* Full width for images */
+        height: auto; /* Maintain aspect ratio */
+        left: 0; /* Reset position */
+    }
+
+    .heading2, .heading3, .heading4 {
+        left: 0; /* Reset position */
+        text-align: center; /* Center align headings */
+    }
+
+    .audio1, .audio2, .audio3 {
+        width: 100%; /* Full width for audio controls */
+        left: 0; /* Reset position */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    .btn2 {
+        width: 100%; /* Full width for button */
+        left: 0; /* Reset position */
+        margin: 20px 0; /* Add margin for spacing */
+    }
+
+    .load {
+        left: 0; /* Reset position */
+        text-align: center; /* Center align text */
+    }
+}
+
+/* For small phones */
+@media (max-width: 480px) {
+    .heading {
+        font-size: 18px; /* Further adjust font size */
+    }
+
+    .para {
+        font-size: 14px; /* Adjust paragraph font size */
+    }
+
+    .btn {
+        height: 35px; /* Adjust button height */
+    }
+
+    .img {
+        height: 300px; /* Adjust image height */
+    }
+
+    .maincontent {
+        font-size: 16px; /* Further adjust font size */
+    }
+
+    .card1, .card2, .card3 {
+        height: auto; /* Allow height to adjust */
+    }
+
+    .audio1, .audio2, .audio3 {
+        height: 30px; /* Adjust audio control height */
+    }
+
+    .btn2 {
+        height: 40px; /* Adjust button height */
+    }
+}
